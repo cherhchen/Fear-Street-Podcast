@@ -1,0 +1,102 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .jumbotron {
+    /* background-image: url("https://streetfoodcinema.com/wp-content/uploads/2021/06/EN-US_FearStreet_Main_Trilogy_Payoff_Horizontal_960x363_RGB_Pre.png");*/
+    background-image: url("https://images.squarespace-cdn.com/content/v1/60412aaad9b5f9575d0b89b2/1626571873823-5FUPT6906Y7O8X1JQ237/FearStreet_banner_1200x620_B2.jpg");
+    background-size: cover;
+    min-height: 300px;
+  }
+  
+  #audio-player {
+    width: 100%;
+  }
+  
+  .audio-container {
+    width: 60%;
+    margin: auto;
+    background: #e3e3e3;
+    background-image: url("https://cdn.glitch.me/81d63010-fef5-4608-9233-c4c53baa9141%2Faudiobg.png?v=1637714698011");
+    background-position: 50% 50%;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px
+  }
+  
+  .container {
+    font-size: 20px;
+    font-family: "Georgia", Times, serif;
+  }
+  
+  .heading {
+    padding-left: 10%;
+  }
+  
+  .spacer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .img-container1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-resize {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .img-resize2 {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .img-resize3 {
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .captions {
+    font-size: 16px;
+    font-family: "Georgia", Times, serif;
+  }
+  
+  .works-cited {
+    font-size: 16px;
+  }
+  
+  .footer {
+    font-size: 12px;
+    font-family: "Georgia", Times, serif;
+  }
+  
+  .icon-cite {
+    font-size: 12px;
+    font-family: "Georgia", Times, serif;
+  }
